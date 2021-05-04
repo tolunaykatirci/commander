@@ -1,0 +1,16 @@
+[
+  {
+    "operation": "REGEX",
+    "source": ".\\test.txt",
+    "regexPattern": "REPLACED",
+    "text": "\nMY PRETTY TEXT\n",
+    "append": true
+  },
+  {
+    "operation": "REGEX",
+    "source": ".\\test.txt",
+    "regexPattern": "\nMY PRETTY TEXT\n",
+    "text": "",
+    "append": false
+  }
+]

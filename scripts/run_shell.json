@@ -1,0 +1,12 @@
+[
+  {
+    "operation": "RUN_SHELL",
+    "command": "echo Test Message!!!",
+    "workingDirectory": ".\\"
+  },
+  {
+    "operation": "RUN_SHELL",
+    "command": "echo Current Working Directory: %cd%",
+    "workingDirectory": "..\\"
+  }
+]

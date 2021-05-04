@@ -1,0 +1,14 @@
+[
+  {
+    "operation": "RUN_COMMANDER_SCRIPT",
+    "filePath": ".\\copy.json",
+    "wait": false,
+    "skip": false
+  },
+  {
+    "operation": "RUN_COMMANDER_SCRIPT",
+    "filePath": ".\\run_shell.json",
+    "wait": false,
+    "skip": false
+  }
+]

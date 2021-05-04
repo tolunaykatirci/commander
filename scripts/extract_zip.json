@@ -1,0 +1,7 @@
+[
+  {
+    "operation": "EXTRACT_ZIP",
+    "source": "test.zip",
+    "destination": "extracted_zip"
+  }
+]

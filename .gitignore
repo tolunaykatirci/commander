@@ -1,2 +1,6 @@
 test
 huawei
+.idea
+dist
+__pycache__
+build

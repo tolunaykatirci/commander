@@ -1,0 +1,20 @@
+[
+  {
+    "operation": "COPY",
+    "source": "test.txt",
+    "destination": "new-folder/test_renamed.txt",
+    "comment": "this operation copies specified source file to destination."
+  },
+  {
+    "operation": "COPY",
+    "source": "test.txt",
+    "destination": "new-folder/test_renamed.txt",
+    "passIfExists": true
+  },
+  {
+    "operation": "COPY",
+    "source": "test.txt",
+    "destination": "new-folder",
+    "comment": "You can give destination as folder or simply rename the file."
+  }
+]

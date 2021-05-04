@@ -1,0 +1,8 @@
+[
+  {
+    "operation": "REPLACE_TEXT",
+    "filePath": "test.txt",
+    "oldValue": "vel",
+    "newValue": "REPLACED"
+  }
+]

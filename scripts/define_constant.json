@@ -1,0 +1,30 @@
+[
+  {
+    "operation": "DEFINE_CONSTANT",
+    "pairs": [
+      {
+        "key": "project_root",
+        "value": ".\\demos\\cordova"
+      },
+      {
+        "key": "project_id",
+        "value": "com.hms.nearby.cordova.release"
+      },
+      {
+        "key": "text_file",
+        "value": ".\\test.txt"
+      }
+    ]
+  },
+  {
+    "operation": "RUN_SHELL",
+    "command": "echo ${project_id} ${project_root}",
+    "workingDirectory": "..\\"
+  },
+  {
+    "operation": "REPLACE_TEXT",
+    "filePath": "${text_file}",
+    "oldValue": "REPLACED",
+    "newValue": "REPLACEDD"
+  }
+]
